@@ -1,20 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- *  main - function of the task
- *  Return: Always: always return zero
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-char i;
+	char low;
 
-for (i= 'a'; i <= 'z'; i++)
-putchar(i);
-
-for (i = 'A'; i <= 'Z'; i++)
-	putchar(i);
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
 	putchar('\n');
+
 	return (0);
 }
 
