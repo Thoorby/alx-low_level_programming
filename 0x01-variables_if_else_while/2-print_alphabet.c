@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <ctype.h>
+
 
 /**
  * main - Entry point
@@ -10,11 +10,12 @@
 
 int main(void)
 {
-	char low;
-
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-
-	return (0);
+int lowerCase = 'a';
+while (lowerCase <='z')
+{
+putchar(lowerCase);
+lowerCase += 1;
+}
+putchar('\n');
+return (0);
 }
