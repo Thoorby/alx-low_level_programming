@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -29,7 +29,4 @@ int main(void)
 			putchar(n + '0');
 			break;
 		}
-	}
 
-	return (0);
-}
